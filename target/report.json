@@ -1,0 +1,123 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To add Customer",
+        "description": "",
+        "id": "to-add-customer;to-add-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20260112106,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should be telecom homepage and click the Add Customer",
+            "match": {
+              "location": "OneDimensionalList.the_user_should_be_telecom_homepage_and_click_the_Add_Customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2876306602,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user should provide valid details",
+            "match": {
+              "location": "OneDimensionalList.the_user_should_provide_valid_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "email",
+                  "address",
+                  "phone"
+                ]
+              },
+              {
+                "cells": [
+                  "ruby",
+                  "sherly",
+                  "rubysherly@gmail.com",
+                  "chennai",
+                  "9952089680"
+                ]
+              },
+              {
+                "cells": [
+                  "lydia",
+                  "shamily",
+                  "lydia@gmail.com",
+                  "chennai",
+                  "9791252580"
+                ]
+              },
+              {
+                "cells": [
+                  "johanna",
+                  "princess",
+                  "johanna@gmail.com",
+                  "chennai",
+                  "841015379"
+                ]
+              },
+              {
+                "cells": [
+                  "prince",
+                  "samuel",
+                  "prince@gmail.com",
+                  "chennai",
+                  "9841018567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76771040,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user should validate the Customer ID",
+            "match": {
+              "location": "OneDimensionalList.the_user_should_validate_the_Customer_ID()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "To add Customer",
+    "description": "",
+    "id": "to-add-customer",
+    "keyword": "Feature",
+    "uri": "C:/Selenium/CucumberOneDimenList/src/test/resources/features/TwoDimensionalMap.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
