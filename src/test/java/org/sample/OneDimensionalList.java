@@ -16,7 +16,7 @@ public class OneDimensionalList {
 	static WebDriver driver;
 	@Given("The user should be telecom homepage and click the Add Customer")
 	public void the_user_should_be_telecom_homepage_and_click_the_Add_Customer() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\CucumberSceOutline\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\RubyCucumber\\Driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/telecom/");
 		driver.findElement(By.xpath("(//a[text()='Add Customer'])[1]")).click();
